@@ -135,15 +135,21 @@ dependencies:
   - yaml=0.1.6=0
   - zeromq=4.1.5=0
   - zlib=1.2.11=0
+  - backports.weakref=1.0rc1=py35_0
   - beautifulsoup4=4.6.3=py35_0
   - binutils_impl_linux-64=2.28.1=had2808c_3
   - binutils_linux-64=7.2.0=had2808c_27
   - biopython=1.72=py35h04863e7_0
   - blas=1.0=openblas
   - cairo=1.12.18=6
+  - click=6.7=py35h353a69f_0
+  - cloudpickle=0.5.5=py35_0
   - cymem=1.31.2=py35h6bb024c_0
   - cytoolz=0.9.0.1=py35h14c3975_1
+  - dask=0.18.2=py35_0
+  - dask-core=0.18.2=py35_0
   - dill=0.2.8.2=py35_0
+  - distributed=1.23.2=py35_0
   - entrypoints=0.2.3=py35_0
   - fontconfig=2.11.1=6
   - freetds=1.00.9=0
@@ -157,9 +163,14 @@ dependencies:
   - h5py=2.7.0=np111py35_0
   - harfbuzz=0.9.39=1
   - hdf5=1.8.17=2
+  - heapdict=1.0.0=py35_2
   - ipython-notebook=4.0.4=py35_0
   - jedi=0.10.2=py35_2
   - joblib=0.12.3=py35_0
+  - keras=2.2.2=0
+  - keras-applications=1.0.4=py35_1
+  - keras-base=2.2.2=py35_0
+  - keras-preprocessing=1.0.2=py35_1
   - libgcc-ng=8.2.0=hdf63c60_1
   - libgfortran-ng=7.3.0=hdf63c60_0
   - libgpuarray=0.7.6=h14c3975_0
@@ -167,7 +178,9 @@ dependencies:
   - libpng=1.6.27=0
   - libpq=9.5.4=0
   - libstdcxx-ng=8.2.0=hdf63c60_1
+  - locket=0.2.0=py35h170bc82_1
   - mako=1.0.7=py35_0
+  - markdown=2.6.11=py35_0
   - matplotlib=1.5.1=np111py35_0
   - mkl=2017.0.3=0
   - mkl-service=1.1.2=py35_3
@@ -178,10 +191,12 @@ dependencies:
   - nltk=3.3.0=py35_0
   - numpy=1.11.3=py35h2aefc1b_9
   - numpy-base=1.11.3=py35h7cdd4dd_9
+  - partd=0.3.8=py35h68187f2_0
   - pillow=4.2.1=py35_0
   - pixman=0.32.6=0
   - plac=0.9.6=py35_0
   - preshed=1.0.1=py35he6710b0_0
+  - psutil=5.4.7=py35h14c3975_0
   - pygpu=0.7.6=py35h3010b51_0
   - pymc3=3.3=py35_0
   - pymssql=2.1.3=py35_0
@@ -194,18 +209,26 @@ dependencies:
   - scikit-learn=0.19.1=py35_nomklh26d41a3_0
   - scipy=0.19.1=py35_nomklh614202b_3
   - simplegeneric=0.8.1=py35_1
+  - sortedcontainers=2.0.5=py35_0
   - spacy=2.0.12=py35h962f231_0
+  - tblib=1.3.2=py35hf1eb0b4_0
+  - tensorflow=1.3.0=0
+  - tensorflow-base=1.3.0=py35h79a3156_1
+  - tensorflow-tensorboard=1.5.1=py35hf484d3e_1
   - termcolor=1.1.0=py35_1
   - theano=1.0.2=py35h6bb024c_0
   - thinc=6.10.3=py35h962f231_0
   - toolz=0.9.0=py35_0
   - tqdm=4.26.0=py35h28b3542_0
   - ujson=1.35=py35h7b6447c_0
+  - werkzeug=0.14.1=py35_0
   - wrapt=1.10.11=py35h14c3975_2
+  - zict=0.1.3=py35_0
   - mayavi=4.5.0=py35_0
   - opencv3=3.2.0=np111py35_0
   - vtk=7.0.0=py35_0
   - pip:
+    - afinn==0.1
     - en-core-web-md==2.0.0
     - en-core-web-sm==2.0.0
     - kaggle==1.5.0
